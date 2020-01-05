@@ -1,7 +1,7 @@
 {
-	"name": "jeremenichelli.io",
-	"version": "3.0.0",
-	"description": "Personal site by Jeremias Menichelli",
+	"name": "vinaybhinde.in",
+	"version": "1.0.0",
+	"description": "Personal site by Vinay Bhinde",
 	"main": "index.md",
 	"scripts": {
 		"clean": "rimraf _site assets _includes/styles _includes/scripts _includes/favicons.liquid",
@@ -17,19 +17,19 @@
 		"assets": "yarn bundle && yarn less && yarn favicons && yarn images",
 		"validate:feed": "npx feed-validator _site/feed.xml --no-showfeed",
 		"prerelease": "yarn clean",
-		"release": "yarn assets && yarn build && yarn validate:feed",
+		"release": "yarn assets && yarn build",
 		"test": "echo \"Error: no test specified\" && exit 1"
 	},
 	"repository": {
 		"type": "git",
-		"url": "github.com/jeremenichelli/personal-site"
+		"url": "github.com/vinaynb/vinaybhinde.in"
 	},
 	"keywords": [
 		"blog",
 		"personal site",
-		"jeremias menichelli"
+		"vinay bhinde"
 	],
-	"author": "Jeremias Menichelli",
+	"author": "Vinay Bhinde",
 	"license": "MIT",
 	"devDependencies": {
 		"@11ty/eleventy": "^0.9.0",
