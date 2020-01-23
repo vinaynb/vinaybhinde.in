@@ -33,7 +33,7 @@ _For more details, download my resume <a download target="_blank" href="https://
 
 I still work at [Avesta Technologies](http://avestatechnologies.com) as a Senior Software Engineer.
 
-My role currently involves more of architecting/setting up things and mentoring junior devs, but I am still involved in the day to day coding.
+My role currently involves more of architecting/setting up things and mentoring junior devs, but I am still involved in the day to day coding in various capacities.
 
 I am currently looking out for speaking opportunities.
 
@@ -41,7 +41,7 @@ _Feel free to [contact me here](mailto:vinaynb@gmail.com) for consultancy, writi
 
 ## About this site
 
-All credit for this site goes to [Jeremias Menichelli](https://jeremenichelli.io/). The look and feel are more or the less same as Jeremias's site and I simply loved the minimalistic look and feel of it. He has thankfully open-sourced his website [here](https://github.com/jeremenichelli/personal-site).
+Website theme credits go to [Jeremias Menichelli](https://jeremenichelli.io/). The look and feel are more or the less same as Jeremias's site and I simply loved the minimalistic look feel of it. He has thankfully open-sourced his website [here](https://github.com/jeremenichelli/personal-site).
 
 Built with [Eleventy](//11ty.io) and hosted by [Netlify](//netlify.com).
 
