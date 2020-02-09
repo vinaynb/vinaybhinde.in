@@ -1,2 +1,2 @@
 User-agent: *
-Sitemap: https://jeremenichelli.io/sitemap.xml
+Sitemap: https://vinaybhinde.in/sitemap.xml

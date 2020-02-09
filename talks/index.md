@@ -5,7 +5,7 @@ type: talks
 excerpt: I am open for speaking requests around general web development, performance, developer experience, animation and design systems.
 ---
 
-If you want me to speak at your event feel free [to send here](mailto:jmenichelli@gmail.com) the details.
+If you want me to speak at your event feel free [to send here](mailto:vinaynb@gmail.com) the details.
 
 <ul class="list">
 {% for talk in talks %}

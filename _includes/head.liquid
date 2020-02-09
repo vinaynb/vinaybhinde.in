@@ -31,12 +31,15 @@
   <script>{% include 'scripts/inline' %}</script>
 
   <!-- analytics -->
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-66192154-2"></script>
   <script>
-    window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
-    ga('create', 'UA-50290926-1', 'auto');
-    ga('send', 'pageview');
-    </script>
-  <script defer src='https://www.google-analytics.com/analytics.js'></script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+
+    gtag('config', 'UA-66192154-2');
+  </script>
 
   <!-- structured data -->
   {% if type == 'home' %}{% include 'structured-data/home' %}
