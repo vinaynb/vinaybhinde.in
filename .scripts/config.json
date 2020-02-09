@@ -35,6 +35,11 @@
 			"output": "./assets/images/feed.jpeg",
 			"quality": 85,
 			"resize": [200, 200]
+		},
+		{
+			"entry": "./src/img/heuristic--caching-1.jpg",
+			"output": "./assets/images/heuristic--caching-1.jpg",
+			"quality": 85			
 		}
 	]
 }

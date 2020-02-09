@@ -16,7 +16,9 @@ async function main() {
 
 			// process and write image file to assets
 			image.quality(file.quality)
-			image.resize(file.resize[0], file.resize[1])
+			if (file.resize) {
+				image.resize(file.resize[0], file.resize[1])
+			}
 			image.write(file.output)
 			console.log(`${green(file.output)} image processed`)
 		})
