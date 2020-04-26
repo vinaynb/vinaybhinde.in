@@ -1,6 +1,6 @@
 {
 	"less": {
-		"files": "./src/less/{home,blog,post,archive,about,talks,404}.less",
+		"files": "./src/less/{home,blog,post,archive,about,talks,404,code}.less",
 		"output": "./_includes/styles/"
 	},
 	"bundles": [
@@ -28,18 +28,24 @@
 			"entry": "./src/favicon/favicon.png",
 			"output": "./assets/images/twitter-card-image.jpeg",
 			"quality": 85,
-			"resize": [300, 300]
+			"resize": [
+				300,
+				300
+			]
 		},
 		{
 			"entry": "./src/favicon/favicon.png",
 			"output": "./assets/images/feed.jpeg",
 			"quality": 85,
-			"resize": [200, 200]
+			"resize": [
+				200,
+				200
+			]
 		},
 		{
 			"entry": "./src/img/heuristic--caching-1.jpg",
 			"output": "./assets/images/heuristic--caching-1.jpg",
-			"quality": 85			
+			"quality": 85
 		}
 	]
 }
