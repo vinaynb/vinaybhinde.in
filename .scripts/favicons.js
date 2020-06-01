@@ -7,7 +7,7 @@ const config = require('./config.json')
 const site = require('../_data/site.json')
 
 const setup = {
-	appName: 'jeremenichelli.io',
+	appName: 'vinaybhinde.in',
 	appDescription: site.description,
 	developerName: site.author,
 	background: '#020210',
