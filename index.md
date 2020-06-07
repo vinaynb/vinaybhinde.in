@@ -13,9 +13,9 @@ type: home
   <p class="home__nav--line">
     Check out my <a href="/blog" class="home__nav--link">articles</a>
   </p>
-  <!-- <p class="home__nav--line">
+  <p class="home__nav--line">
     Watch my <a href="/talks" class="home__nav--link">talks</a>
-  </p> -->
+  </p>
   <p class="home__nav--line">
     Find out more <a href="/about" class="home__nav--link">about me</a>
   </p>
