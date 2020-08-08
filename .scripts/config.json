@@ -46,6 +46,11 @@
 			"entry": "./src/img/heuristic--caching-1.jpg",
 			"output": "./assets/images/heuristic--caching-1.jpg",
 			"quality": 85
+		},
+		{
+			"entry": "./src/img/curious-case-of-csp-1.png",
+			"output": "./assets/images/curious-case-of-csp-1.png",
+			"quality": 85
 		}
 	]
 }
