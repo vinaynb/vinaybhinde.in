@@ -12,7 +12,14 @@ if (__DEV__) {
 	}
 }
 
-css(config)
+/**
+ * store-css npm module load stylesheets asynchronously and store them in web storage.
+ * This improves perf as next time the browser fetches them from local storage instead of
+ * from internet.
+ * As the site does not use any external stylesheets, I have commented this.
+ * Enable if external stylesheets are added in future.
+ */
+//css(config)
 
 try {
 	// check dark mode initial state
