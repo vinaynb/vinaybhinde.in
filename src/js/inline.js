@@ -34,7 +34,10 @@ document.documentElement.classList.remove('no-js')
 
 const scripts = ['/assets/js/main.js']
 
-let FONTS_CACHED = false
+//this triggers the opacity animations on home page
+document.documentElement.classList.add('fonts-loaded')
+
+/* let FONTS_CACHED = false
 
 try {
 	// check if fonts have been already loaded
@@ -47,7 +50,7 @@ if (FONTS_CACHED) {
 	document.documentElement.classList.add('fonts-loaded')
 } else {
 	scripts.push('/assets/js/font.js')
-}
+} */
 
 // load scripts when DOM is ready
 self.addEventListener('DOMContentLoaded', () => {
