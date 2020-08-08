@@ -35,6 +35,8 @@ I still work at [Avesta Technologies](http://avestatechnologies.com) as a Senior
 
 My role currently involves more of architecting/setting up things and mentoring junior devs, but I am still involved in the day to day coding in various capacities.
 
+I also have [AWS Developer Associate certfication](https://www.certmetrics.com/amazon/public/badge.aspx?i=2&t=c&d=2020-01-16&ci=AWS01242182) to my name which is a result of my production grade experience with various AWS Services.
+
 I am currently looking out for speaking opportunities.
 
 _Feel free to [contact me here](mailto:vinaynb@gmail.com) for consultancy, writing or speaking inquiries._

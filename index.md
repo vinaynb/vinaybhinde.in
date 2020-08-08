@@ -6,7 +6,7 @@ type: home
 <!-- <p class="home__subtitle">Developer, curious</p> -->
 <h1 class="home__title">Vinay Bhinde</h1>
 <p class="home__bio">  
-  Senior Software Engineer at <a href="//newrelic">Avesta Technologies</a>, Frontend Consultant. Intrested in making lives of frontend developers easier.
+  Senior Software Engineer at <a href="//newrelic">Avesta Technologies</a>, Frontend Consultant & Certified AWS Developer Associate. Intrested in making lives of frontend developers easier.
   <!-- <a href="mailto:jmenichelli@gmail.com" style="background-color: var(--accent);color: var(--background);font-style: italic;text-transform: uppercase;padding: 0 0.25rem;">available&nbsp;for&nbsp;hire</a> -->
 </p>
 <nav class="home__nav">
