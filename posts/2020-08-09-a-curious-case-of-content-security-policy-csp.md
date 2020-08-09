@@ -62,9 +62,22 @@ As I was pretty certain there was no code change in Express server config, I qui
 
 ### So why was this package allowed to update to a new major version?
 
-It was easy for the reason for this. The `package.json` had helmet version listed as `^3.x.x`, the leading carat symbol (i.e. ^) indicating that if a newer major version was available, npm would automatically install it without asking you. Hence as soon as the Helmet team released 4.0.0 on 2nd August, the very next build of our frontend app which runs `npm install` command in our build tool every time there is a push in the master branch, would fetch helmet v4.x. **This explained why the app worked a week back**.
+It was easy for the reason for this. Helmet npm package was added to docker image (inside which the express server served the frontend) using a standalone command in Dockerfile as shown below.
+
+```
+//Dockerfile
+...
+
+RUN npm install helmet --depth 0 --silent --no-summary
+
+...
+```
+
+When a docker image was being built in our CI, the npm while executing the above command will simply install the latest version of helmet npm package available from the registry without caring about the breaking change introduced in 4.x. Hence as soon as the Helmet team released 4.0.0 on 2nd August, the very next build of our frontend app which runs `npm install` command in our build tool every time there is a push in the master branch, would fetch helmet v4.x. **This explained why the app worked a week back**.
 
 Consequently, our main HTML page (i.e index.html) which was served from Express, returned a CSP header informing the browser to allow loading scripts and styles only from the origin domain itself (i.e. the domain index.html was being served from). Hence browser blocked all our CDN requests and this broke the app.
+
+**If you are faced with this same issue and quickly need to fix this bug before doing anything else, you could simply downgrade and fix the helmet version to 3.21.3 as that is the version which does not have a default CSP policy header set.**
 
 ## Conclusions
 
@@ -89,3 +102,6 @@ If you are working on applications that are of sensitive nature i.e. Banking, On
 I think there are a lot more security best practices from a frontend perspective that I have come to recall and a new post dedicated to the topic would be a better thing to do.
 
 Thank you for reading this through. Want to discuss/point out an error? Let's catch up on [Twitter](http://twitter.com/vinayn_b)/[Email](mailto:vinaynb@gmail.com).
+
+**Article Updates**
+- {{ "now" | date: "%Y-%m-%d %H:%M" }} : Updated writeup detailing the underlying root cause of Helmet package update to major version as pointed out on [reddit](https://www.reddit.com/r/javascript/comments/i6ig0s/curious_case_of_content_security_policy_csp/) by [unkown_char](https://www.reddit.com/user/unknown_char/).
