@@ -51,6 +51,11 @@
 			"entry": "./src/img/curious-case-of-csp-1.png",
 			"output": "./assets/images/curious-case-of-csp-1.png",
 			"quality": 85
+		},
+		{
+			"entry": "./src/img/curious-case-of-csp-2.png",
+			"output": "./assets/images/curious-case-of-csp-2.png",
+			"quality": 85
 		}
 	]
 }
