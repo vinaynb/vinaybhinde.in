@@ -39,4 +39,4 @@ One another fact that about [Date](https://developer.mozilla.org/en-US/docs/Web/
 
 To avoid forcing browsers to invoke heuristic freshness value calculation, it is recommended you set up your origin servers to have either <code>Cache-control:max-age value-in-seconds</code> or <code>Expires value-in-seconds</code> header so that browsers know exactly when they should consider a resource stale and hit the network. If you are working with S3 and using Cloudfront like me, you will need to add required headers as [meta-data to your S3 objects](http://docs.aws.amazon.com/AmazonS3/latest/dev/UsingMetadata.html#object-metadata) a guide to which can be found [here](http://docs.aws.amazon.com/AmazonS3/latest/user-guide/add-object-metadata.html).
 
-Still not working for you? Trouble understanding or implementing caching? Hit me up in comments or on twitter([@vinayn_b](https://twitter.com/vinayn_b)). Thanks for reading :)
+Still not working for you? Trouble understanding or implementing caching? Hit me up in comments or on twitter([@vinayn_b](https://twitter.com/vinayn_b)). Thanks for reading.
