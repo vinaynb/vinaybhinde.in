@@ -1,5 +1,7 @@
 # personal-site
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/c1a88cbf-5c05-4921-bacb-6cd1c0d2bea2/deploy-status)](https://app.netlify.com/sites/hardcore-williams-e4ea5c/deploys)
+
 Repository that runs [vinaybhinde.in](https://vinaybhinde.in), my personal site. This repo is forked from https://github.com/jeremenichelli/personal-site and all credit for the initial design and UI goes to [jeremenichelli.io](https://jeremenichelli.io).
 
 This project is built using [Eleventy](//11ty.com) by [Zach Leatherman](//github.com/zachleat) and hosted by [Netlify](//netlify.com). Liquid is used for templates and Markdown for content.
