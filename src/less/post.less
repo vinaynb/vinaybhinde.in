@@ -1,5 +1,6 @@
 @import '_general.less';
 @import '_page.less';
+@import '_highlighting.less';
 
 del,
 code {
@@ -7,6 +8,7 @@ code {
 	font-family: Menlo, Consolas, Monaco, monospace;
 	font-size: 14px;
 	padding: 0 5px;
+	color: var(--code-text);
 }
 
 code {
@@ -55,5 +57,18 @@ pre code {
 .action--link {
 	color: var(--secondary);
 	display: block;
+	text-align: center;
+}
+
+.image__container {
+	border: 1px #cccccc solid;
+	padding: 4px;
+	margin: auto;
+}
+
+.image__caption {
+	color: #666;
+	font-style: italic;
+	padding: 2px;
 	text-align: center;
 }

@@ -11,9 +11,10 @@
 	--secondary: #505060;
 	--background: @light--color;
 	--text: @dark--color;
+	--code-text: @light--color;
 
 	// code styles
-	--code--background: rgba(0, 0, 10, 0.025);
+	--code--background: #020210;
 
 	// letter spacing
 	--low--letter-spacing: 0.025em;
@@ -21,6 +22,7 @@
 }
 
 :root.dark {
+	--code-text: @light--color;
 	--accent: #e51843;
 	--secondary: #d0d0e0;
 	--background: @dark--color;

@@ -3,7 +3,7 @@ const xmlPlugin = require('eleventy-xml-plugin')
 
 const { markdownify, nbsp } = require('./.eleventy/filters')
 const { all, archive, blogposts } = require('./.eleventy/collections')
-const { actionLink, codepen } = require('./.eleventy/shortcodes')
+const { actionLink, codepen, image } = require('./.eleventy/shortcodes')
 const { md } = require('./.eleventy/libraries')
 const { htmlmin } = require('./.eleventy/transforms')
 
@@ -16,7 +16,9 @@ module.exports = function(eleventyConfig) {
 
 	/* PLUGINS */
 	eleventyConfig.addPlugin(xmlPlugin)
-	eleventyConfig.addPlugin(syntaxHighlightPlugin)
+	eleventyConfig.addPlugin(syntaxHighlightPlugin, {
+		lineSeparator: '\n'
+	})
 
 	/* FILTERS */
 	eleventyConfig.addFilter('nbsp', nbsp)
@@ -30,6 +32,7 @@ module.exports = function(eleventyConfig) {
 	/* SHORT CODES */
 	eleventyConfig.addShortcode('actionLink', actionLink)
 	eleventyConfig.addShortcode('codepen', codepen)
+	eleventyConfig.addShortcode('image', image)
 
 	/* MARKDOWN */
 	eleventyConfig.setLibrary('md', md)
