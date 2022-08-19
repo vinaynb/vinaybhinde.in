@@ -25,7 +25,7 @@ For the last couple of years, I have been leading teams working on building web 
 
 Along with large exposure on the frontend side of things, I was responsible for deploying apps on clouds using containers and hence I am fairly experienced in setting up infrastructure and deploying frontend and backend services that are required to operate at scale.
 
-_For more details, download my resume <a download target="_blank" href="https://drive.google.com/open?id=0B4ZA4KCcJ2GzZWY0RTIweVc1MG1oRnhxcW1lZ2RnbG1iWG5v">here</a>._
+_For more details, download my resume <a download target="_blank" href="https://docs.google.com/document/d/1cOKP2IgOgq4fnLr4ZN5IzWpodoQQr7o1JF4aFL-Ln9U/edit">here</a>._
 
 ## Today
 
