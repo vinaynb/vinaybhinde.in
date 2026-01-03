@@ -1,5 +1,5 @@
 const { cyan, green, red } = require('chalk')
-const favicons = require('favicons')
+const { favicons } = require('favicons')
 const { asyncMakeDirectory, asyncWriteFile, asyncRimraf } = require('./_utils')
 
 // import config file
@@ -25,13 +25,7 @@ const setup = {
 	}
 }
 
-const asyncFavicons = (entry, setup) =>
-	new Promise((res, rej) => {
-		favicons(entry, setup, (err, result) => {
-			if (err) return rej(err)
-			res(result)
-		})
-	})
+const asyncFavicons = (entry, setup) => favicons(entry, setup)
 
 async function main() {
 	console.log(`\nGenerating ${cyan('favicons')} assets`)

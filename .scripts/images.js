@@ -1,5 +1,5 @@
 const { cyan, green, red } = require('chalk')
-const jimp = require('jimp')
+const { Jimp } = require('jimp')
 const { asyncMakeDirectory } = require('./_utils')
 
 // import config file
@@ -10,18 +10,20 @@ async function main() {
 
 	try {
 		await asyncMakeDirectory('./assets/images')
-		config.images.map(async (file) => {
+		for (const file of config.images) {
 			// read image file with jimp
-			const image = await jimp.read(file.entry)
+			const image = await Jimp.read(file.entry)
 
 			// process and write image file to assets
-			image.quality(file.quality)
 			if (file.resize) {
-				image.resize(file.resize[0], file.resize[1])
+				image.resize({ w: file.resize[0], h: file.resize[1] })
 			}
-			image.write(file.output)
+			const writeOptions = file.quality
+				? { quality: file.quality }
+				: undefined
+			await image.write(file.output, writeOptions)
 			console.log(`${green(file.output)} image processed`)
-		})
+		}
 	} catch (error) {
 		console.log(red(error))
 	}
