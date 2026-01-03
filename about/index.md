@@ -45,8 +45,8 @@ _Feel free to [contact me here](mailto:vinaynb@gmail.com) for consultancy, writi
 
 ## About this site
 
-Website theme credits go to [Jeremias Menichelli]. The look and feel are more or the less same as Jeremias's site and I simply loved the minimalistic look feel of it. He has thankfully open-sourced his website [here](https://github.com/jeremenichelli/personal-site).
+Website theme credits go to Jeremias Menichelli. The look and feel are more or the less same as Jeremias's site and I simply loved the minimalistic look feel of it. He has thankfully open-sourced his website [here](https://github.com/jeremenichelli/personal-site).
 
 Built with [Eleventy](//11ty.io) and hosted by [Netlify](//netlify.com).
 
-The code is open-sourced, you can check it in [this repository](//github.com/vinaynb/vinaybhinde.in) too.
+The code for this website is open-sourced too, you can check it in [this repository](//github.com/vinaynb/vinaybhinde.in) too.
