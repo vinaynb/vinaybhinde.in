@@ -6,8 +6,7 @@ type: home
 <!-- <p class="home__subtitle">Developer, curious</p> -->
 <h1 class="home__title">Vinay Bhinde</h1>
 <p class="home__bio">  
-  Senior Software Engineer at <a>Avesta Technologies</a>, Frontend Consultant & Certified AWS Developer Associate. Intrested in making lives of frontend developers easier.
-  <!-- <a href="mailto:jmenichelli@gmail.com" style="background-color: var(--accent);color: var(--background);font-style: italic;text-transform: uppercase;padding: 0 0.25rem;">available&nbsp;for&nbsp;hire</a> -->
+  Product Engineer at <a href="https://avestahq.com">Avesta HQ</a> & <a href="https://avestalabs.ai">Avesta Labs</a>. I started in UI development, then over the years expanded into backend systems, cloud infrastructure, and now AI. I lead end-to-end, high-quality solutions across stacks and domains, partnering closely with customers and teams to build scalable systems and deliver real business value from AI.
 </p>
 <nav class="home__nav">
   <p class="home__nav--line">
